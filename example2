@@ -1,0 +1,26 @@
+// This is lab 4
+// structured top down
+// display price
+
+#include <iostream>
+using namespace std;
+
+int displaystar()
+{
+  cout << "*****************************\n";
+  
+  return 0;
+}
+
+int main()
+{
+    displaystar();
+    
+    float price = 9.90;
+    cout << price << endl;
+    
+    
+    displaystar();
+    
+    return 0;
+}
