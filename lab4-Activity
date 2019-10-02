@@ -1,0 +1,25 @@
+// This is lab 4
+// From question number 3, page 41
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int loan_amount, loan_years;
+   float annual_interestRate, monthly_payment = 0;
+   
+   cout << "Input loan amount: ";
+   cin >> loan_amount;
+   
+   cout << "Input annual interest rate(%): ";
+   cin >> annual_interestRate;
+   
+   cout << "Input number of years: ";
+   cin >> loan_years;
+    
+    monthly_payment = ((loan_amount * (annual_interestRate/100) * loan_years) + loan_amount) / 120;
+    cout << "Monthly payment for this loan is (RM):" << monthly_payment << endl;
+   
+   return 0;
+   }
