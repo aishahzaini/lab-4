@@ -1,0 +1,32 @@
+// This is lab 4
+// structured top down
+
+#include <iostream>
+using namespace std;
+
+int displaystar()
+{
+  cout << "*****************************\n";
+  
+  return 0;
+}
+
+int main()
+{
+    
+    
+    displaystar();
+    
+    //some calculation
+    //initialize an int x with a value of10
+    //initialize an int y with a value of 38
+    int x = 10, y = 38, total = 0;
+    //add this two value and display the total
+    total = x + y;
+    
+    cout << "the total is " << total << endl;
+    
+    displaystar();
+    
+    return 0;
+}
