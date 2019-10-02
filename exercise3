@@ -1,0 +1,33 @@
+//to calculate total price
+// This is lab 4
+// structured top down
+
+#include <iostream>
+using namespace std;
+
+int displaystar()
+{
+  cout << "*****************************\n";
+  
+  return 0;
+}
+
+int main()
+{
+    displaystar();
+   float totalprice = 0, price = 9.90;
+   const int DISC = 10;
+   int qtty_purchased; 
+   
+   cout<< " Please enter your quantity purchased: ";
+   cin >> qtty_purchased; 
+   
+   totalprice = (price*qtty_purchased) * (100-DISC)/100.00;
+   
+   cout << "\n The total price is " << totalprice << endl;
+    
+    
+    displaystar();
+    
+    return 0;
+}
